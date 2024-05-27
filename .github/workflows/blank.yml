@@ -27,5 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Deploy static app to S3
-        run: aws s3 sync . s3://myporfolio --delete
+        run: aws s3 sync . s3://myporfolio  --delete
            
