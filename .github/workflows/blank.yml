@@ -21,6 +21,7 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_SECRET_ID }}
           aws-secret-access-key:  ${{ secrets.AWS_SECRET_KEY }}
+          aws-region: eu-north-1
 
       # Runs a single command using the runners shell
       - name: Deploy static app to S3
